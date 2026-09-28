@@ -9,10 +9,11 @@ traversal, and resolved candidates are checked against the requested root.
 
 ## Reporting a vulnerability
 
-Please do not disclose security-sensitive details in a public issue. Report the
-issue privately to the repository maintainers with a description, reproduction
-steps, affected version, and a suggested mitigation if available. Maintainers
-will acknowledge reports as soon as practical and coordinate a fix and release.
+Do not disclose security-sensitive details in a public issue. Once this repository is
+published, use its GitHub **Security** tab and **Report a vulnerability** form. If
+private reporting is not enabled yet, contact the repository maintainer through
+their GitHub profile before sharing details. Include a description, reproduction
+steps, affected version, and suggested mitigation when available.
 
 Do not include confidential corpus contents in a report; a minimal synthetic
 fixture is preferred.

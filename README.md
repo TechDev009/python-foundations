@@ -101,3 +101,10 @@ uv run pyright
 
 This project is released under the MIT License. See [LICENSE](LICENSE).
 Please read [SECURITY.md](SECURITY.md) before reporting a vulnerability.
+
+## Public release / status
+
+- **Local quickstart:** Run `uv sync --locked`, then use the commands in [Run](#run) to scan, summarize, or export a local corpus.
+- **CI/tests:** GitHub Actions runs pytest with coverage, Ruff checks and formatting validation, and Pyright; the same checks are listed in [Test and quality checks](#test-and-quality-checks).
+- **Limitations:** This release handles bounded UTF-8 text-like files and intentionally excludes binary formats, archives, and symlink traversal; see [Limitations](#limitations).
+- **Production:** This is a local CLI, not a hosted deployment. Real production use requires operator-managed credentials and cloud/deployment infrastructure where applicable; none are included here.
